@@ -21,7 +21,7 @@ class PythonAT385 < Formula
     satisfy { MacOS::CLT.installed? }
   end
 
-  depends_on "pkg-config" => :build
+  depends_on "pkg-config@0.29.2" => :build
   depends_on "gdbm"
   depends_on "openssl@1.1"
   depends_on "readline"

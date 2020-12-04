@@ -11,7 +11,7 @@ class CmakeAT3182 < Formula
     regex(/Latest Release \(v?(\d+(?:\.\d+)+)\)/i)
   end
 
-  depends_on "sphinx-doc" => :build
+  depends_on "sphinx-doc@3.2.0" => :build
 
   on_linux do
     depends_on "openssl@1.1"
@@ -31,7 +31,7 @@ class CmakeAT3182 < Formula
       --datadir=/share/cmake
       --docdir=/share/doc/cmake
       --mandir=/share/man
-      --sphinx-build=#{Formula["sphinx-doc"].opt_bin}/sphinx-build
+      --sphinx-build=#{Formula["sphinx-doc@3.2.0"].opt_bin}/sphinx-build
       --sphinx-html
       --sphinx-man
       --system-zlib
