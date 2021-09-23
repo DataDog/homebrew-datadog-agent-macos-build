@@ -1,4 +1,4 @@
-class RubyAT27 < Formula
+class RubyAT274 < Formula
   desc "Powerful, clean, object-oriented scripting language"
   homepage "https://www.ruby-lang.org/"
   url "https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.4.tar.xz"
