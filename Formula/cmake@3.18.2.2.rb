@@ -1,3 +1,8 @@
+# Unless explicitly stated otherwise all files in this repository are licensed
+# under the Apache License Version 2.0.
+# This product includes software developed at Datadog (https://www.datadoghq.com/)
+# Copyright 2022-present Datadog, Inc.
+
 class CmakeAT31822 < Formula
   # This is a modified version of the 3.18.2 cmake formula which doesn't depend on
   # sphinx-doc, as the sphinx-doc build fails with:
