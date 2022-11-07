@@ -1,7 +1,2 @@
 Component,Origin,License,Copyright
-cmake,https://github.com/Kitware/CMake,BSD-3-Clause,Copyright (c) 2000-2022 Kitware Inc. and Contributors
-gimme,https://github.com/travis-ci/gimme,MIT,Copyright (c) 2015-2018 gimme Contributors
-pkgconfig,https://freedesktop.org,GPL-2.0,Copyright (c) 1989-1991 Free Software Foundation Inc.
-python,https://www.python.org/,PSFL,Copyright (c) 2001-2022 Python Software Foundation
-ruby,https://www.ruby-lang.org/,BSD-2-Clause,Copyright (c) 1993-2013 Yukihiro Matsumoto
-sphinx,https://www.sphinx-doc.org/,BSD-2-Clause,Copyright (c) 2007-2022 by the Sphinx team
+homebrew-core,https://github.com/Homebrew/homebrew-core,BSD-2-Clause,Copyright (c) 2009-present Homebrew contributors
