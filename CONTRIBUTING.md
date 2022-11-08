@@ -1,6 +1,6 @@
 # Contributing
 
-The code is licensed under the Apache License 2.0 (see LICENSE for details).
+The code is licensed under the BSD 2-Clause License (see LICENSE for details).
 
 First of all, thanks for contributing!
 
