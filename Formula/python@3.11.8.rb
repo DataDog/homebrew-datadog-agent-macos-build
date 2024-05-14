@@ -24,7 +24,7 @@ class PythonAT3118 < Formula
   # build packages later. Xcode-only systems need different flags.
   pour_bottle? only_if: :clt_installed
 
-  depends_on "pkg-config" => :build
+  depends_on "pkg-config@0.29.2" => :build
   depends_on "mpdecimal"
   depends_on "openssl@3"
   depends_on "sqlite"
