@@ -160,9 +160,6 @@ class PythonAT3126 < Formula
         args << "--with-dbmliborder=bdb"
       end
   
-      # Resolve HOMEBREW_PREFIX in our sysconfig modification.
-      inreplace "Lib/sysconfig.py", "@@HOMEBREW_PREFIX@@", HOMEBREW_PREFIX
-  
       if OS.linux?
         # Python's configure adds the system ncurses include entry to CPPFLAGS
         # when doing curses header check. The check may fail when there exists
