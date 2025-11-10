@@ -26,6 +26,8 @@ class PkgConfigAT0292 < Formula
       #{HOMEBREW_LIBRARY}/Homebrew/os/mac/pkgconfig/#{MacOS.version}
     ].uniq.join(File::PATH_SEPARATOR)
 
+    ENV.append_to_cflags "-Wno-int-conversion"
+
     system "./configure", "--disable-debug",
                           "--prefix=#{prefix}",
                           "--disable-host-tool",
