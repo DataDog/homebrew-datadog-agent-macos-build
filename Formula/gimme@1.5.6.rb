@@ -1,4 +1,4 @@
-class GimmeAT154 < Formula
+class GimmeAT156 < Formula
   desc "Shell script to install any Go version"
   homepage "https://github.com/travis-ci/gimme"
   url "https://github.com/travis-ci/gimme/archive/v1.5.6.tar.gz"
